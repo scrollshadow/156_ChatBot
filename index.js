@@ -34,7 +34,7 @@ app.post('/api/chat', async (req, res) => {
                 },
 
                 body: JSON.stringify({
-                    model: 'baidu/ernie-5.5-flash-preview:free',
+                    model: 'inclusional/ling-3.2-flash:free',
                     messages: messages,
                     temperature: 0.7,
                     max_tokens: 1000,
